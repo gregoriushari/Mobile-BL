@@ -1,0 +1,5 @@
+pada saat memasuki aplikasi nya, akan muncul kata 1 sampai kata 21.
+ketika menekan salah satu kata misalkan Kata 8, Kata 8 akan menjadi kata 8 pernah diklik
+jika yang sudah di klik di klik kembali, kata pernah diklik akan muncul sesuai dengan jumlah kita mengklik kata tersebut
+
+ketika kita memencet tombol plus di pojok kanan bawah, akan muncul kata 22 telah ditambahkan dan seterusnya
