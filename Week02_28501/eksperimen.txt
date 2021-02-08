@@ -1,0 +1,16 @@
+Lakukan pengujian terhadap app anda dengan skenario di bawah ini:
+a. Kosongkan Angka 1 dan Angka 2, lalu klik salah satu button
+b. Kosongkan Angka 2, lalu klik button Bagi.
+c. Isi 0 (nol) pada Agka 2, lalu klik button Bagi.
+Tuliskan penjelasan apa yang terjadi, jika terjadi error jelaskan apa error nya dan kemungkinan penyebabnya, serta langkah-langkah apa yang dapat memperbaiki error tersebut untuk masing masing skenario di atas.
+
+a. hasilnya langsung keluar dari aplikasinya. hal ini kemungkinan dikarenakan tidak ada inputnya di kedua edit text yang diproses oleh operator yang kita klik, dan tidak ada error handling seperti pesan untuk input terlebih dahulu. dan hasilnya aplikasi langsung keluar
+untuk perbaikan mungkin menerapkan validasi jika kedua edit text tersebut sudah terisi sebelum dijalankan
+
+b. hasilnya langsung keluar dari aplikasi. hal ini disebabkan karena angka 2 tidak menerima input sama sekali sehingga aplikasi bingung saat operator dipilih dan terpaksa menutup aplikasi
+untuk perbaikan sama seperti kasus a, menambahkan validasi untuk input angka 1 dan 2 agar ada pesan jika salah satu blm diisi
+
+c. untuk operasi tambah kurang kali tidak ada masalah. saat operasi pembagian, output yang dikeluarkan adalah infinity. hal ini dikarenakan emang setiap angka yang dibagi 0 hasilnya infinty. untuk memperbaikinya, menambah exception dengan pesan angka tidak bisa dibagi dengan 0, agar tidak keluar input infinity
+
+3. Lakukan debugging pada program anda dengan meletakkan dua breakpoint bebas letaknya. Gunakan langkah-langkah step-over, step-into, step-out, dan resume. 
+kesimpulannya adalah angka 1 dan angka 2 tidak boleh kosong. jika salah satu operator di tekan dan salah satu tidak ada isinya/ kosong sama sekali, akan menyebabkan aplikasi menutup secara paksa
