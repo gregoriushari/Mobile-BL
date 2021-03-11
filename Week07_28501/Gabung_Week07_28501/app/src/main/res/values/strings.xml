@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Gabung_Week07_28501</string>
+    <string name="Camera">Coba Kamera</string>
+    <string name="Gallery">Galeri Video</string>
+    <string name="foto">Take a Photo</string>
+    <string name="video">Take a Video</string>
+    <string name="ket">Keterangan</string>
+    <string name="judul">Judul</string>
+    <string name="uri">Uri</string>
+    <string name="kembali">Kembali</string>
+</resources>
