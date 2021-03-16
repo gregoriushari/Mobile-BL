@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Musiqu</string>
+    <string name="profile">Profile</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="pass">Password</string>
+    <string name="back">Back</string>
+    <string name="logout">Log Out</string>
+    <string name="myprof">My Profile</string>
+    <string name="about">About Me</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nowplaying">Now Playing</string>
+    <string name="song">This is Song Name</string>
+    <string name="artis">This is Song Artist</string>
+    <string name="start">1:34</string>
+    <string name="end">4:20</string>
+    <string name="nim">00000028501</string>
+    <string name="nama">Gregorius Hariyanto Setiadi</string>
+    <string name="kelas">BL</string>
+</resources>
