@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Week08_28501</string>
+    <string name="textEditor">Text Editor and Storage</string>
+    <string name="open">Open</string>
+    <string name="save">Save</string>
+    <string name="hapus">Delete</string>
+    <string name="clear">Clear</string>
+    <string name="exit">Exit</string>
+    <string name="nol">0</string>
+    <string name="hitam">Hitam</string>
+    <string name="merah">Merah</string>
+    <string name="biru">Biru</string>
+    <string name="hijau">Hijau</string>
+    <string name="tambah">TAMBAH</string>
+    <string name="reset">RESET</string>
+    <string name="shared">Shared Preference</string>
+</resources>
